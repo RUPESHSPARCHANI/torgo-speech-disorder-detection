@@ -1,0 +1,19 @@
+# Virtual environment
+.venv/
+
+# Large raw audio dataset (1.77 GB - too large for GitHub)
+torgo/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db

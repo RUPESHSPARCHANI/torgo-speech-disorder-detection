@@ -1,0 +1,4 @@
+index,file,reason
+255,../torgo\F_Con\wav_arrayMic_FC01S01\wav_arrayMic_FC01S01_0256.wav,Empty audio
+6174,../torgo\F_Dys\wav_headMic_F01\wav_headMic_F01_0067.wav,Error opening '../torgo\\F_Dys\\wav_headMic_F01\\wav_headMic_F01_0067.wav': Format not recognised.
+6175,../torgo\F_Dys\wav_headMic_F01\wav_headMic_F01_0068.wav,Error opening '../torgo\\F_Dys\\wav_headMic_F01\\wav_headMic_F01_0068.wav': Format not recognised.
