@@ -1,15 +1,19 @@
-# Virtual environment
+# Virtual environments
 .venv/
+torgo/.venv/
 
-# Large raw audio dataset (1.77 GB - too large for GitHub)
-torgo/
+# Large raw audio data folders (too large for GitHub)
+torgo/F_Con/
+torgo/F_Dys/
+torgo/M_Con/
+torgo/M_Dys/
 
 # Python cache
 __pycache__/
+torgo/__pycache__/
 *.py[cod]
 *.pyo
 *.pyd
-.Python
 
 # Jupyter notebook checkpoints
 .ipynb_checkpoints/
@@ -17,3 +21,9 @@ __pycache__/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Model binaries (if large)
+*.pkl
+*.h5
+*.pt
+*.pth

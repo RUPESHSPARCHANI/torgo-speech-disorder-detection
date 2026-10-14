@@ -1,0 +1,128 @@
+{
+  "total_speakers": 15,
+  "total_samples": 9410,
+  "svm_weighted_accuracy": 0.5988310308182784,
+  "rf_weighted_accuracy": 0.6689691817215728,
+  "per_speaker_results": [
+    {
+      "speaker_id": "F01",
+      "category": "F_Dys",
+      "ground_truth": "Dysarthric",
+      "samples": 134,
+      "svm_accuracy": 0.9850746268656716,
+      "rf_accuracy": 0.9402985074626866
+    },
+    {
+      "speaker_id": "F03",
+      "category": "F_Dys",
+      "ground_truth": "Dysarthric",
+      "samples": 846,
+      "svm_accuracy": 0.11702127659574468,
+      "rf_accuracy": 0.05555555555555555
+    },
+    {
+      "speaker_id": "F04",
+      "category": "F_Dys",
+      "ground_truth": "Dysarthric",
+      "samples": 448,
+      "svm_accuracy": 0.41294642857142855,
+      "rf_accuracy": 0.32142857142857145
+    },
+    {
+      "speaker_id": "FC01",
+      "category": "F_Con",
+      "ground_truth": "Control",
+      "samples": 255,
+      "svm_accuracy": 0.7803921568627451,
+      "rf_accuracy": 0.9450980392156862
+    },
+    {
+      "speaker_id": "FC02",
+      "category": "F_Con",
+      "ground_truth": "Control",
+      "samples": 1261,
+      "svm_accuracy": 0.9318001586042823,
+      "rf_accuracy": 0.8374306106264869
+    },
+    {
+      "speaker_id": "FC03",
+      "category": "F_Con",
+      "ground_truth": "Control",
+      "samples": 995,
+      "svm_accuracy": 0.22110552763819097,
+      "rf_accuracy": 0.46934673366834173
+    },
+    {
+      "speaker_id": "M01",
+      "category": "M_Dys",
+      "ground_truth": "Dysarthric",
+      "samples": 386,
+      "svm_accuracy": 0.9818652849740933,
+      "rf_accuracy": 0.9844559585492227
+    },
+    {
+      "speaker_id": "M02",
+      "category": "M_Dys",
+      "ground_truth": "Dysarthric",
+      "samples": 399,
+      "svm_accuracy": 0.8947368421052632,
+      "rf_accuracy": 0.9598997493734336
+    },
+    {
+      "speaker_id": "M03",
+      "category": "M_Dys",
+      "ground_truth": "Dysarthric",
+      "samples": 416,
+      "svm_accuracy": 0.19230769230769232,
+      "rf_accuracy": 0.2091346153846154
+    },
+    {
+      "speaker_id": "M04",
+      "category": "M_Dys",
+      "ground_truth": "Dysarthric",
+      "samples": 421,
+      "svm_accuracy": 0.9287410926365796,
+      "rf_accuracy": 0.9619952494061758
+    },
+    {
+      "speaker_id": "M05",
+      "category": "M_Dys",
+      "ground_truth": "Dysarthric",
+      "samples": 128,
+      "svm_accuracy": 1.0,
+      "rf_accuracy": 1.0
+    },
+    {
+      "speaker_id": "MC01",
+      "category": "M_Con",
+      "ground_truth": "Control",
+      "samples": 1108,
+      "svm_accuracy": 0.6597472924187726,
+      "rf_accuracy": 0.7987364620938628
+    },
+    {
+      "speaker_id": "MC02",
+      "category": "M_Con",
+      "ground_truth": "Control",
+      "samples": 695,
+      "svm_accuracy": 0.6388489208633094,
+      "rf_accuracy": 0.7093525179856115
+    },
+    {
+      "speaker_id": "MC03",
+      "category": "M_Con",
+      "ground_truth": "Control",
+      "samples": 897,
+      "svm_accuracy": 0.7536231884057971,
+      "rf_accuracy": 0.7647714604236343
+    },
+    {
+      "speaker_id": "MC04",
+      "category": "M_Con",
+      "ground_truth": "Control",
+      "samples": 1021,
+      "svm_accuracy": 0.4299706170421156,
+      "rf_accuracy": 0.7512242899118511
+    }
+  ]
+}
