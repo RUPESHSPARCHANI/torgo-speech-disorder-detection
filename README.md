@@ -90,7 +90,6 @@ torgo-speech-disorder-detection/
 │   ├── 🏭 train_production_model.py    # Export production bundle
 │   ├── 📐 market_loso_evaluation.py    # LOSO speaker evaluation
 │   ├── 🌐 api.py                       # REST API server
-│   ├── 📊 generate_phase_ppts.py       # Auto-generate PPT reports
 │   │
 │   ├── 📂 models/
 │   │   └── torgo_production_bundle.joblib
@@ -103,8 +102,7 @@ torgo-speech-disorder-detection/
 │       ├── 04_feature_importances.png
 │       ├── 05_model_comparison.png
 │       ├── 06_loso_speaker_evaluation.png
-│       ├── speaker_independent_loso_report.json
-│       └── 📂 ppts/                    # Phase PowerPoint decks
+│       └── speaker_independent_loso_report.json
 │
 ├── 📂 notebooks/                        # Jupyter EDA notebooks
 │   ├── 01_dataset_exploration.ipynb
@@ -242,7 +240,7 @@ source .venv/bin/activate
 
 ### Step 3 — Install dependencies
 ```bash
-pip install librosa scikit-learn pandas numpy matplotlib seaborn joblib python-pptx flask
+pip install librosa scikit-learn pandas numpy matplotlib seaborn joblib flask
 ```
 
 ### Step 4 — Download TORGO dataset
@@ -353,7 +351,6 @@ curl -X POST http://localhost:5000/predict \
 - [x] 6-Phase ML pipeline (SVM + Random Forest)
 - [x] LOSO speaker-independent evaluation
 - [x] REST API for inference
-- [x] Auto-generated phase PPT reports
 - [ ] Deep learning models (CNN, LSTM on spectrograms)
 - [ ] Real-time microphone input support
 - [ ] Web dashboard for clinicians
